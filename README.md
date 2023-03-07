@@ -29,10 +29,9 @@ In the QA and Dev deployments, we used Docker Swarm, and then we switched to Kub
 * Prepare builds scripts for QA env. (QA tests for EKS)
 * Build and deploy app on QA env. Manually.
 * Prepare QA pipelines.
-* Prepare Highly available RKE Kubernetes cluster on AWS EC2.
+* Prepare Highly available RKE Kubernetes cluster on AWS EC2. (Rancher Helm chart)
 * Install rancher app on RKE kubernetes.
 * Create staging and production env, with Rancher.
-* Prepare Nexus server.
 * Prepare a staging pipeline.
 * Prepare a production pipeline.
 * Setting a domain name and TLS for production pipeline with Route 53.
