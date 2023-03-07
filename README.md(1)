@@ -1,6 +1,7 @@
-## Kaity LeGrande##
-## ⭐️ PetClinic Application Deployed as Microservices⭐️ ##
+# Kaity LeGrande #
+# ⭐️ PetClinic Application Deployed as Microservices⭐️ #
 
+## 
 * Prepare Dev Server manually on EC2 instances.
 * Prepare Git repo (main, dev, dev)
 * Check maven build setup on dev branch
@@ -29,6 +30,6 @@
 * Prepare a staging pipeline.
 * Prepare a production pipeline.
 * Setting a domain name and TLS for production pipeline with Route 53.
-* Monitor with Prometheus and Grafana.
+* Monitor with Prometheus and Grafana. ##
 
 
