@@ -1,0 +1,34 @@
+## Kaity LeGrande##
+## ⭐️ PetClinic Application Deployed as Microservices⭐️ ##
+
+* Prepare Dev Server manually on EC2 instances.
+* Prepare Git repo (main, dev, dev)
+* Check maven build setup on dev branch
+* Prepare script for packaging the app.
+* Prepare Dev Server terraform files.
+* Prepare Dockerfiles for Microserves.
+* Prepare script for building Docker images.
+* Create Docker Compose file for local dev server.
+* Prepare Jenkins server for project
+* Configure Jenkins server for project (install plugins etc)
+* Setup unit test and configure code coverage report (unit tests)(pom.xml, jacoco plugin)
+* Prepare continuous integration pipeline. (unit tests) CI Job for Jacoco.
+* Prepare and implement selenium tests. (Nightly functional tests)
+* Create ECR registry for dev manually. (Nightly functional tests) CI Job: Create ECR Registry.
+* Create a QA Automation env with Kubernetes (Night functional tests). Prepare policies and terraform files. Terraform for Infra, Ansible to configure Infra.
+* Prepare Petclinic Kubernetes YAML files. (Nightly functional tests). Use Kompose for YAML transformation. Prepare Helm chart in s3 bucket.
+* Prepare a QA Automation pipeline for nightly builds. (QA tests). Shell scripts for pipeline, CI Job: Tests scripts on Jenkins. (Freestyle). Make dummy tests using Selenium. Ci Pipeline: Jenkinsfile + QA Test pipeline.
+* Create a QA Environment on EKS Cluster. CI Piepline on EKS: Jenkinsfile + QA Test pipeline (Nightly functional tests).
+* Prepare builds scripts for QA env. (QA tests for EKS)
+* Build and deploy app on QA env. Manually.
+* Prepare QA pipelines.
+* Prepare Highly available RKE Kubernetes cluster on AWS EC2.
+* Install rancher app on RKE kubernetes.
+* Create staging and production env, with Rancher.
+* Prepare Nexus server.
+* Prepare a staging pipeline.
+* Prepare a production pipeline.
+* Setting a domain name and TLS for production pipeline with Route 53.
+* Monitor with Prometheus and Grafana.
+
+
