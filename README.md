@@ -9,7 +9,7 @@ In the QA and Dev deployments, we used Docker Swarm, and then we switched to Kub
 
 
 * Prepare Dev Server manually on EC2 instances.
-* Prepare Git repo (main, dev, dev)
+* Prepare Git repo (main, dev, release)
 * Check maven build setup on dev branch
 * Prepare script for packaging the app.
 * Prepare Dev Server terraform files.
