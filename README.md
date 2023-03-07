@@ -1,7 +1,13 @@
 # Kaity LeGrande #
 # ⭐️ PetClinic Application Deployed as Microservices⭐️ #
 
-## 
+##
+In my recent project, I worked mainly on a micro-services application fully automated. It was a Dockerized Web Application developed in Java Springboot and Spring Cloud Frameworks and integrated with MySQL database. The project was to create full microservices, CI/CD Pipelines, and deployment on a Kubernetes cluster with monitoring. Kubernetes cluster was created and managed with Rancher. Jenkins was used as the CI/CD automation tool and we created all the infrastructure on AWS EC2 Service. Also, we used Git as the version control system during the whole process. We prepared base branches namely master, dev, and release for the DevOps cycle.
+
+The code was developed in Java and Maven was used as the build tool. So I used Maven Wrapper for the testing, packaging, and installing phases. I spun up the development server through a terraform template. I also prepared Dockerfiles for each microservices and, I prepared a Docker Compose file to deploy the application with Docker-Swarm. 
+In the QA and Dev deployments, we used Docker Swarm, and then we switched to Kubernetes in production and staging.
+
+
 * Prepare Dev Server manually on EC2 instances.
 * Prepare Git repo (main, dev, dev)
 * Check maven build setup on dev branch
