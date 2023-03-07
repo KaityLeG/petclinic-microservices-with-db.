@@ -23,7 +23,7 @@ In the QA and Dev deployments, we used Docker Swarm, and then we switched to Kub
 * Prepare and implement selenium tests. (Nightly functional tests)
 * Create ECR registry for dev manually. (Nightly functional tests) CI Job: Create ECR Registry.
 * Create a QA Automation env with Kubernetes (Night functional tests). Prepare policies and terraform files. Terraform for Infra, Ansible to configure. dev-k8s
-* * Prepare Petclinic Kubernetes YAML files. (Nightly functional tests). Use Kompose for YAML transformation. Prepare Helm chart in s3 bucket.
+* * Prepare Petclinic Kubernetes YAML files. (Nightly functional tests)(jenkinsfile-petclinic-nightly) Use Kompose for YAML transformation. Prepare Helm chart in s3 bucket.
 * Prepare a QA Automation pipeline for nightly builds. (QA tests). Shell scripts for pipeline, CI Job: Tests scripts on Jenkins. (Freestyle). Make dummy tests using Selenium. Ci Pipeline: Jenkinsfile + QA Test pipeline.
 * Create a QA Environment on EKS Cluster. CI Piepline on EKS: Jenkinsfile + QA Test pipeline (Nightly functional tests).
 * Prepare builds scripts for QA env. (QA tests for EKS)
